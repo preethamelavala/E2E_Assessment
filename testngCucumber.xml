@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+ <listeners>
+     
+        
+         <listener class-name="com.traderev_qa.libs.listeners"/>
+         <listener class-name="com.traderev_qa.resources.ExtentReporterNG"/>
+         
+
+ </listeners>
+
+  <test name="Validating Career page">
+    <classes>
+      <class name="com.traderev_qa.runners.TestRunner"/>
+          </classes>
+      </test>
+      
+   
+   <!-- Test -->
+</suite> <!-- Suite -->
